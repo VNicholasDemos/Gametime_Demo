@@ -1,0 +1,21 @@
+.queryInput {
+    height: 50px;
+    width: 80%;
+    font-size: 16pt;
+    border-style: none;
+  }
+  .queryInput:focus {
+    outline: none;
+  }
+  .queryWrapper {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: solid;
+    border-color: lightgrey;
+    border-radius: 25px;
+    background: white;
+    padding-left: 10px;
+    z-index: 20; /*Dev note: as a rule I don't like to ever set z-indices outside of global styles but it's simpler than trying to style the top margin of the results table here */
+  }

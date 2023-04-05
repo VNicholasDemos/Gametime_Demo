@@ -1,0 +1,12 @@
+.displayWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.logoStyle {
+    width: 400px;
+    padding-bottom: 25px;
+    padding-top: 200px;
+}
